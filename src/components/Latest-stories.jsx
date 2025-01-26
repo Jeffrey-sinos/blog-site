@@ -26,7 +26,6 @@ const LatestStories = () => {
       image: restaurant,
     },
   ];
-
   return (
     <section className="p-8 bg-white m-4 rounded-lg shadow-md">
       <h2 className="text-2xl font-semibold text-gray-800 mb-4 text-center">Latest Stories</h2>
