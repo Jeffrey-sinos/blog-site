@@ -1,0 +1,145 @@
+/* Reset some default styles */
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+header nav a {
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+header nav a:hover {
+  background-color: #555;
+}
+
+/* Latest Stories Section */
+.latest-stories {
+  padding: 2rem;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.latest-stories h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.latest-stories div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.latest-stories div div {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.latest-stories h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.latest-stories p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Staff Picks Section */
+.staff-picks {
+  padding: 2rem;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.staff-picks h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.staff-picks div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.staff-picks div div {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.staff-picks h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.staff-picks p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Post Page Styles */
+.post {
+  padding: 2rem;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.post p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+}
